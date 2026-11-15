@@ -1,6 +1,6 @@
 # 瞎折腾看数据
 
-[VPS 示范站点](https://data.xiazheteng.fun/) · [YouTube @xiazheteng8](https://www.youtube.com/@xiazheteng8) · [Telegram @xiazheteng8](https://t.me/xiazheteng8)
+[GitHub Pages 示范站点](https://xiazheteng8.github.io/data-race-studio/) · [VPS 示范站点](https://data.xiazheteng.fun/) · [YouTube @xiazheteng8](https://www.youtube.com/@xiazheteng8) · [Telegram @xiazheteng8](https://t.me/xiazheteng8)
 
 [跳到 GitHub Pages / Cloudflare Pages 教程](README-PAGES.md)
 
