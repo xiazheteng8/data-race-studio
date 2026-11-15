@@ -1,0 +1,1 @@
+window.PULSE_SCREEN_DISPLAY='inline';

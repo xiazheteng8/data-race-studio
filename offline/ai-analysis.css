@@ -1,0 +1,37 @@
+/* Scoped styles: load after style.css. */
+.ai-analysis-entry { white-space: nowrap; }
+dialog.ai-analysis { box-sizing: border-box; width: min(780px, calc(100vw - 32px)); max-width: 780px; max-height: 90vh; margin: auto; padding: 28px; overflow: auto; color: var(--text, #edf2f7); background: var(--panel, #101925); border: 1px solid var(--border, #2c394b); border-radius: 18px; box-shadow: 0 24px 90px #0009; }
+.ai-analysis::backdrop { background: #020711bd; backdrop-filter: blur(5px); }
+.ai-analysis *, .ai-analysis *::before, .ai-analysis *::after { box-sizing: border-box; }
+.ai-analysis [hidden] { display: none !important; }
+.ai-analysis-head, .ai-result-head { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.ai-analysis h2 { margin: 7px 0 0; font-size: 25px; color: inherit; }
+.ai-analysis h3 { margin: 0; font-size: 15px; color: inherit; }
+.ai-eyebrow { color: var(--accent, #7fb7ff); font-size: 11px; letter-spacing: .16em; }
+.ai-analysis .ai-description { margin: 16px 0 22px; color: #a7b5c8; line-height: 1.75; font-size: 13px; }
+.ai-analysis .ai-form { display: grid; gap: 15px; }
+.ai-analysis label { display: grid; gap: 7px; color: inherit; font-size: 13px; line-height: 1.6; }
+.ai-analysis fieldset { min-width: 0; display: grid; gap: 14px; border: 1px solid var(--border, #2c394b); padding: 16px; border-radius: 10px; margin: 0; }
+.ai-analysis legend { padding: 0 7px; font-size: 12px; color: #a7b5c8; }
+.ai-analysis input:not([type="checkbox"]), .ai-analysis textarea, .ai-analysis select { width: 100%; min-width: 0; height: auto; margin: 0; padding: 10px 12px; color: inherit; background: #080f1c; border: 1px solid var(--border, #344257); border-radius: 7px; font: inherit; font-size: 13px; line-height: 1.6; }
+.ai-analysis textarea { resize: vertical; min-height: 80px; }
+.ai-analysis select option { background: #101925; color: #edf2f7; }
+.ai-analysis input::placeholder, .ai-analysis textarea::placeholder { color: #8292a8; }
+.ai-analysis :focus-visible { outline: 2px solid var(--accent, #7fb7ff); outline-offset: 3px; }
+.ai-analysis .ai-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.ai-analysis .ai-config-actions { align-items: end; grid-template-columns: minmax(140px, 1fr) auto; }
+.ai-analysis .ai-help { margin: 0; font-size: 12px; color: #a7b5c8; line-height: 1.7; overflow-wrap: anywhere; }
+.ai-analysis .ai-consent { display: flex; align-items: flex-start; gap: 10px; padding: 12px; border: 1px solid #365076; border-radius: 8px; background: #142239; }
+.ai-analysis .ai-consent input { flex: 0 0 auto; width: 16px; height: 16px; margin: 3px 0 0; accent-color: #7fb7ff; }
+.ai-analysis button { cursor: pointer; font: inherit; font-size: 12px; color: inherit; border: 1px solid var(--border, #344257); border-radius: 7px; padding: 9px 14px; background: #1a293d; }
+.ai-analysis button:hover:not(:disabled) { background: #273c58; }
+.ai-analysis .ai-close { padding: 3px 10px; font-size: 25px; line-height: 1.2; }
+.ai-analysis .ai-run { background: var(--accent, #71aaff); border-color: transparent; color: #081326; font-weight: 700; }
+.ai-analysis .ai-run:hover:not(:disabled) { background: #9ac4ff; }
+.ai-analysis button:disabled { opacity: .45; cursor: not-allowed; }
+.ai-analysis .ai-actions, .ai-result-head > div { display: flex; flex-wrap: wrap; gap: 9px; }
+.ai-analysis .ai-status { min-height: 22px; font-size: 13px; line-height: 1.7; color: #a9d4ff; overflow-wrap: anywhere; }
+.ai-analysis .ai-error { color: #ffaaaa; }
+.ai-analysis .ai-results { border-top: 1px solid var(--border, #2c394b); padding-top: 18px; }
+.ai-analysis .ai-output { margin: 14px 0 0; padding: 16px; min-height: 120px; max-height: 50vh; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word; border: 1px solid var(--border, #2c394b); border-radius: 9px; background: #080f1c; color: inherit; font: 13px/1.85 system-ui, sans-serif; }
+@media (max-width: 600px) { dialog.ai-analysis { padding: 20px; width: calc(100vw - 20px); max-height: 94vh; } .ai-analysis .ai-grid { grid-template-columns: 1fr; } .ai-analysis .ai-result-head { flex-wrap: wrap; } .ai-analysis fieldset { padding: 12px; } }

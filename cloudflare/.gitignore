@@ -1,0 +1,6 @@
+node_modules/
+.pages-dist/
+.deploy-secrets.json
+.env
+.dev.vars
+.wrangler/

@@ -1,0 +1,11 @@
+services:
+  dashboard:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8088:8080"
+    environment:
+      HISTORY_TOKEN: ${HISTORY_TOKEN:?Set HISTORY_TOKEN in .env first}
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-}
+    volumes:
+      - ./data:/data

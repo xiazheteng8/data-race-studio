@@ -1,0 +1,4 @@
+Bundled offline icon sources:
+flag-icons 7.3.2: https://github.com/lipis/flag-icons (MIT; FLAG-ICONS-LICENSE.txt)
+Simple Icons 11.15.0: https://github.com/simple-icons/simple-icons (CC0; SIMPLE-ICONS-LICENSE.md). Individual icon sources and available license details are in brand-icon-metadata.json. Brand marks remain trademarks of their owners.
+world-countries 5.1.0: https://github.com/mledoze/countries (ODbL; WORLD-COUNTRIES-LICENSE.txt). Names and ISO codes are used to match bundled flags.

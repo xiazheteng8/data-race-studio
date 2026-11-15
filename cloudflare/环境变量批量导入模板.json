@@ -1,0 +1,4 @@
+{
+  "HISTORY_TOKEN": "用途：保护云端历史记录读写，网页连接数据库时填写同一个密钥；示例：替换为自己生成的至少24位随机字符串",
+  "ALLOWED_ORIGINS": "用途：允许其他网址跨域连接云端历史接口，同域不需要；示例：https://data.xiazheteng.fun,http://localhost:8880；不需要时删除这一项"
+}

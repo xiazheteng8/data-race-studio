@@ -1,0 +1,1 @@
+{"name":"xiazheteng-data","private":true,"version":"4.1.0","scripts":{"deploy:oneclick":"node deploy/oneclick.mjs"},"devDependencies":{"wrangler":"4.156.0"}}
