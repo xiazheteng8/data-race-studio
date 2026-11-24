@@ -24,9 +24,9 @@
 
 ![🏁 数据竞速 · 动态演示](docs/media/demo.gif)
 
-[▶ 播放 / 下载 MP4（0.34 MB）](https://github.com/xiazheteng8/data-race-studio/raw/refs/heads/main/docs/media/demo.mp4)
+[▶ 点此播放功能介绍](https://youtu.be/wAuAVsMNqq4)
 
-> 上方为轻量循环预览；MP4 可查看完整演示。演示无音轨，避免自动播放声音。
+> 上方为轻量循环预览；视频可查看完整演示。
 
 ## ✨ 一套数据，多种表达
 
