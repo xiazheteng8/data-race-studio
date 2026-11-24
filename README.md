@@ -6,7 +6,7 @@
 
 导入数据 → 设计图表 → 播放竞速 → 导出视频
 
-[🌐 在线体验](https://data.xiazheteng.fun/) · [☁️ Pages 演示](https://xiazheteng-data.pages.dev/) · [📖 部署教程](docs/DEPLOY.md) · [⚙️ API 与数据配置](docs/CONFIGURATION.md)
+[🌐 在线体验](https://data.xiazheteng.fun/) · [☁️ Pages 演示](https://xiazheteng8.github.io/data-race-studio/) · [📖 部署教程](docs/DEPLOY.md) · [⚙️ API 与数据配置](docs/CONFIGURATION.md)
 
 ![Browser](https://img.shields.io/badge/Browser-Canvas%20%2B%20WebCodecs-2563eb?style=flat-square)
 ![Storage](https://img.shields.io/badge/Storage-IndexedDB%20%2F%20SQLite%20%2F%20KV-059669?style=flat-square)
